@@ -19,16 +19,14 @@ const jugar = (userChoise) => {
   
   if (rules[userChoise].includes(Choise)) {
     console.log("Ganastes");
+    
     return;
-  }else{
+    
+  }
     console.log("Perdistes");
     return;
-  }
   
-
-
-
-
+  
 }
 
 jugar("spock")
